@@ -1,11 +1,11 @@
-# Suzane_Ruas
-Engenharia de Software
 
 
-# 1. Descrição de Sistema
+# 1. Descrição do Sistema
 
 Exercício 1:
 O nome da clinica é cachorro amarelo
+
+A seguir temos informações sobre um clinica veterinária
 
 1 Uma clínica veterinária atende apenas os animais: gatos e cachorros. 
 2 Os clientes devem fazer um cadastro de si e dos animais. 
@@ -31,9 +31,78 @@ O nome da clinica é cachorro amarelo
 22 A pet shop vende ração, apetrechos,roupas e brinquedos para os pets.
 23 A Clinica tem um programa de hospedagem.
 
+Faça o seguinte:
+1 Desenhe um diagrama Entidade Relacionamento usando Markdown e Mermaid. 
 
 
 # 2. Diagrama de Banco de Dados
+
+
+```mermaid
+erDiagram
+    CLIENTE {
+        string nome
+        string telefone
+        string endereco
+    }
+
+    ANIMAL {
+        string nome
+        string especie
+        string raca
+        string cor
+        string tipoRacao
+        string habitos
+        string condicaoChegada
+    }
+
+    VETERINARIO {
+        string nome
+        string especialidade
+    }
+
+    ATENDENTE {
+        string nome
+    }
+
+    PRONTUARIO {
+        string observacoes
+        string receita
+    }
+
+    FORMULARIO {
+        string resultadoEntrevista
+    }
+
+    AGENDA {
+        datetime dataHora
+        boolean disponivel
+    }
+
+    PRODUTO {
+        string tipo
+        string descricao
+    }
+
+    HOSPEDAGEM {
+        string descricao
+        datetime dataInicio
+        datetime dataFim
+    }
+
+    CLIENTE ||--o{ ANIMAL : possui
+    ANIMAL ||--o{ PRONTUARIO : gera
+    ANIMAL ||--o{ FORMULARIO : gera
+    ANIMAL ||--o{ AGENDA : agenda
+    VETERINARIO ||--o{ ANIMAL : atende
+    ATENDENTE ||--o{ CLIENTE : atende
+    CLIENTE ||--o{ HOSPEDAGEM : reserva
+    PRODUTO ||--o{ CLIENTE : compra
+
+
+
+```
+
 
 # 3. Diagrama de Casos de Uso
 
