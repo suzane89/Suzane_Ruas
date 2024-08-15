@@ -106,7 +106,7 @@ erDiagram
 
 # 3. Diagrama de Casos de Uso
 
-[https://github.com/suzane89/Suzane_Ruas/blob/main/Casos%20de%20Uso.drawio.png] (https://github.com/suzane89/Suzane_Ruas/blob/main/Casos%20de%20Uso.drawio.png)
+![https://github.com/suzane89/Suzane_Ruas/blob/main/Casos%20de%20Uso.drawio.png](https://github.com/suzane89/Suzane_Ruas/blob/main/Casos%20de%20Uso.drawio.png)
 
 # 4. Principais Telas do Sistema
 
