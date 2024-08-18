@@ -130,6 +130,11 @@ erDiagram
 
 # 4. Principais Telas do Sistema
 
+![https://github.com/suzane89/Suzane_Ruas/blob/main/Captura%20de%20tela%202024-08-15%20232152.png?raw=true](https://github.com/suzane89/Suzane_Ruas/blob/main/Captura%20de%20tela%202024-08-15%20232152.png?raw=true)
+![https://github.com/suzane89/Suzane_Ruas/blob/main/Captura%20de%20tela%202024-08-15%20232520.png?raw=true](https://github.com/suzane89/Suzane_Ruas/blob/main/Captura%20de%20tela%202024-08-15%20232520.png?raw=true)
+![https://github.com/suzane89/Suzane_Ruas/blob/main/Captura%20de%20tela%202024-08-15%20230908.png?raw=true](https://github.com/suzane89/Suzane_Ruas/blob/main/Captura%20de%20tela%202024-08-15%20230908.png?raw=true)
+
+
 # 5. Arquitetura de Sistema
 
 ```mermaid
